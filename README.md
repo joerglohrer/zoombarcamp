@@ -1,4 +1,15 @@
-# Technik-Orga BARCAMP mit Zoom
+---
+title: Technik-Orga BARCAMP/relilab-CAFÉ mit Zoom
+description: Tutorials der Oculus Quest 2 
+image: https://i.imgur.com/mFC9cvR.jpg
+tags: Barcamp, Zoom, Videokonferenz
+lang: de
+dir: ltr
+---
+
+![](https://i.imgur.com/mFC9cvR.jpg)
+
+# Technik-Orga BARCAMP/relilab-CAFÉ mit Zoom
 
 ## Checkliste zur Vorbereitung
 * [ ] Host vereinbaren
@@ -19,14 +30,12 @@ Untenstehend wird die Organisation eines barcamps mit den Möglichkeiten einer Z
 Solltest du nicht ohnehin Veranstalter sein, bekommt 1 Person die Host-Rechte um die Haupt-Session zu organisieren.
 ![](https://i.imgur.com/1wnXfag.png)
 ### Alternative Moderatoren
-Es können ausschließlich bezahlte Benutzer vorab als alternative Moderatoren eines Meetings angelegt werden
+Vorab können ausschließlich bezahlte Benutzer als alternative Moderatoren eines Meetings angelegt werden
 ![](https://i.imgur.com/A2fnEwk.png)
-Im persönlichen Profil ist darüberhinaus ein Moderatorenschlüssel einsehbar, der Meeting-Teilnehmern erlaubt, den Host zu beanspruchen:
+Im [persönlichen Profil](https://zoom.us/profile) ist darüberhinaus ein Moderatorenschlüssel einsehbar, der Meeting-Teilnehmern erlaubt, den Host zu beanspruchen, sogar wenn sie selbst keinen angemeldeen Account besitzen:
 ![](https://i.imgur.com/ti32dX2.png)
 Ist der Beitritt vor dem Moderator als Meetingoption aktiviert, kann das Meeting schon vorab betreten werden und auch Teilnehmer ohne Rechte können mit dem Moderatorenschlüssel den Host beanspruchen:
 ![](https://i.imgur.com/uVjwNPE.png)
-
-
 
 ### Co-Host erstellen
 Deine Aufgabe ist es, die ankommenden TeilGebenden mit Co-Host-Rechten auszustatten, damit sie eigenständig die Sessions betreten und wechseln können. Dazu in der Teilnehmerübersicht die entsprechende Person auswählen, auf "Mehr" klicken und "Co-Host erstellen" auswählen:
@@ -49,25 +58,33 @@ Bei der Erstellung "Manuell" wählen um die Breakout Sessions schon vor Beitritt
 Die Breakout-Sessions umbenennen. Die erste Session erhält den Namen "Sessionplanung" und dient in der Folge als Durchgangsraum, aus dem die TeilGebenden anschließend eigenständig andere Räume betreten und verlassen können:
 ![](https://i.imgur.com/a2OsEVl.png)
 #### Copy&Paste Vorlage - Breakout Sessions:
-[Importvorlage als .csv-Template](https://raw.githubusercontent.com/joerglohrer/zoombarcamp/master/breakout_room_template_relichatcafe.csv)
+[Importvorlage als .csv-Template](https://raw.githubusercontent.com/joerglohrer/zoombarcamp/master/breakout_room_template_relilab-cafe.csv)
 
-Empfang - Haupt-Session
-🔀 Sessionplanung (Durchgang zu den Räumen)
-🚀 Projektschmiede
-🎨 Latte Art
-🎮 Spielecke
-☕ Espresso
-🏫 Lehrerzimmer
-🔇 Stummtisch
-🛠️ Rösterei
-🧉 Teestube
-💆 Relax
-🛋️ Sofaecke
-📚 Bibliothek
-🦠 Wie geht's mir mit Corona?
-@ Themenraum
+- ***Empfang - Haupt-Session***
+- 🔀 Sessionplanung (Durchgang zu den Räumen)
+- 📚 Bibliothek
+- 🍹 Cocktailbar
+- 🍨 Eiscafé
+- ☕ Espresso
+- 🏡 Gartenterrasse
+- 🏫 Lehrerzimmer
+- 🎨 Latte Art
+- 👨‍🔧 Maschinenraum
+- 🚀 Projektschmiede
+- 💆 Relax
+- 🛠️ Rösterei
+- 🛋️ Sofaecke
+- 🎮 Spielecke
+- 🔇 Stummtisch
+- 🏖️ Strandcafé
+- 🧉 Teestube
+- 🕸️ Vernetzungstreffen Ev. Schulen
+- 🍷 Weinkeller
+
 
 ## TeilGebende zur Sessionplanung zuordnen
+![](https://i.imgur.com/dVGnvIq.png)
+
 Die Breakout-Session “Sessionplanung” dient zum Start in die Selbstauswahl der Sessions durch die TeilGebenden. 
 **Wichtig: Die Haupt-Session dient ausschließlich dem Hochstufen der Beteiligten zu Co-Hosts. 
 Das Plenum, wo sich alle versammeln ist jedoch die erste Breakout-Session 
@@ -91,12 +108,18 @@ bei den TeilGebenden erscheint dann:
 
 ## Die Breakout-Sessions beenden
 Die Sessions können beliebig oft beendet und wieder neu begonnen werden. Die Raumnamen bleiben erhalten und können zwischen den Sessions umbenannt, gelöscht oder erweitert werden.
+Daneben gibt es die Möglichkeit, verschiedene Optionen einzustellen. Zu den Optionen gelangt man über den Options-Button im Breakout-Fenster:
+![](https://i.imgur.com/Zl1uynT.png)
+
 In den Optionen zur den Breakout-Sessions kann folgendes eingestellt werden:
-![](https://i.imgur.com/LMrW0YK.png)
-* Alle Teilnehmer automatisch in Breakout-Räume verschieben
-    * ist dies deaktivert, können die TeilGebenden selbst entscheiden, ob sie der Raumzuweisung des Host zustimmen wollen. Ist es aktiviert, werden sie automatisch und sofort verschoben.
+![](https://i.imgur.com/l9jDZsv.png)
+* Meetingteilnehmern die Auswahl eines Raums gestatten
+    * ist dies deaktivert, können die TeilNehmer nur den Breakouträumen beitreten, wenn der TeilGeber sie in die Räume verschiebt. Auch ein Wechsel in zwischen den Räumen ist nur möglich durch Verschieben. (Teilnehmer können weiterhin zum Co-Host gemacht und in einen Breakoutraum verschoben werden, danach können sie selbstständig die Räume wechseln)
 * Teilnehmern erlauben, jederzeit zu der Hauptsitzung zurückzukehren
     * ist dies aktiviert, kommen Teilgebende beim Verlassen ihrer Session in die Haupt-Session zurück. Ist es deaktivert haben sie nur die Option das Meeting zu verlassen 
+* Alle zugewiesenen Teilnehmer automatisch in Konferenzräume verschieben
+* Breakout-Räume automatisch schließen
+    * Diese Funktion setzt ein Zeitlimit für die Breakouträume. Ist die Zeit abgelaufen, schließen die Breakouträume automatisch. Die Zeit kann frei gewählt werden
 * Ist der Countdown aktiviert, werden die TeilGebenden nach der eingestellten Zeit automatisch in die Haupt-Session zurückgebracht! 
     * ![](https://i.imgur.com/5XwE4OY.jpg)
     
@@ -138,6 +161,8 @@ Via "Kommentieren" auf einem geteilten Bildschirm, können die Teilnehmenden auf
 ## Zu Ergänzen
 - Chateinstellung ... für Teilnehmer (auch unter Sicherheit)
 
+
+
 ### Freigaben (Bildschirm, Audio, Whiteboard)
 - NUR Audio freigeben
 - ![](https://i.imgur.com/Xk2KNyo.png)
@@ -148,6 +173,24 @@ So machen es andere:
 * [Zoom Einstellungsempfehlungen - eLearning Competence Center Hochschule Osnabrück (PDF)](https://www.hs-osnabrueck.de/fileadmin/HSOS/Homepages/eLCC/Zoom_Einstellungen.pdf)
 * [Zoom: Grundfunktionen und Einstellungsempfehlungen - Thomas Schäffer, Kompetenzzentrum für juristisches Lernen und Lehren, Universität zu Köln (PPF)](https://kjll.jura.uni-koeln.de/sites/kjll/user_upload/Zoom_Anleitung_KjLL-2.pdf)
 * [Liste der Standardeinstellungen - Universität Bielefeld, Fakultät für Geschichtswissenschaft, Philosophie und Theologie (PDF)](https://www.uni-bielefeld.de/philosophie/COVID-19/Zoom-Hinweisblatt-Moderation.pdf)
+
+## Zoom auf aktuellem Stand halten
+
+###  Über die Website (Link) und Mac (Screenshot)
+[Aktuelle Version von Zoom](https://zoom.us/download#client_4meeting) überprüfen
+![](https://i.imgur.com/e9UyZps.png)
+
+### Über die Zoom-Anwednung auf Zoom
+### 1. Schritt: Zur Zoom-Hauptoberfläche gelangen
+![](https://i.imgur.com/dbf41wy.png)
+### 2. Schritt: Üder einen Klick auf das Profilicon oben rechts die Seitenleiste öffnen
+![](https://i.imgur.com/Z2txOa6.png)
+![](https://i.imgur.com/6IqBCZg.png)
+### 3. "Nach Updates suchen" anklicken und ggf. Update laden
+![](https://i.imgur.com/ydmUIhE.png)
+
+
+
 
 ## Tutorials von [@mellow_stiff](https://twitter.com/mellow_stiff)
 ### Zoom-Konferenz Tutorial 1 - Grundlagen für Teilnehmer einer Konferenz
@@ -161,3 +204,5 @@ So machen es andere:
 ![](https://i.imgur.com/HpqlVKM.jpg)
 jpg und png
 ![](https://i.imgur.com/eVIJxdA.png)
+![](https://i.imgur.com/kLObDEc.png)
+![](https://i.imgur.com/9UhlL0e.png)
